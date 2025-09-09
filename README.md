@@ -37,7 +37,4 @@ This project implements a Task Manager backend using raw MySQL queries (no ORM),
 - `PUT /api/tasks/:id` — update task (authorized).
 - `DELETE /api/tasks/:id` — delete task (authorized).
 
-## Notes
-- This project uses `mysql2` package with promise interface to run raw SQL queries.
-- Password reset/email not included (optional features).
 
